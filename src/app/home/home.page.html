@@ -1,14 +1,122 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>GPS Location</ion-title>
+    <ion-title>Ubicación Actual</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-button (click)="getCurrentLocation()">Obtener coordenadas</ion-button>
-
   <div *ngIf="latitude !== null && longitude !== null">
-    <p><strong>Latitud:</strong> {{ latitude }}</p>
-    <p><strong>Longitud:</strong> {{ longitude }}</p>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Coordenadas</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p><strong>Latitud:</strong> {{ latitude }}</p>
+        <p><strong>Longitud:</strong> {{ longitude }}</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div *ngIf="latitude === null && longitude === null">
+    <p>Obteniendo ubicación...</p>
   </div>
 </ion-content>
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
